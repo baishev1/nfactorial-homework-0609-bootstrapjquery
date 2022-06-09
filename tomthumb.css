@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+a { 
+    text-decoration: none; 
+    color: black;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+   text-align: center; 
+   margin-bottom: 45px;
+   margin-top: 5px;
+}
+h4{
+    margin-top: 60px;
+}
+.container-all{
+    display: flex;
+    flex-direction: column;
+}
+.container-greyup{
+    width: 100%;
+    height: 70px;
+    background-color: rgba(128, 128, 128, 0.505);
+    border-bottom: 5px ;
+    border-bottom: solid;
+    border-bottom-width: 4px;
+}
+.middle{
+    display: flex;
+    flex-direction: row;
+}
+.container-greymiddle{
+    width: 15%;
+    background-color: rgba(128, 128, 128, 0.505);
+    border-right: solid;
+    border-right-width: 5px;
+}
+.container-greydown{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(128, 128, 128, 0.505);
+    border-top:solid;
+    border-top-width: 4px;
+}
+.input{
+    display: flex;
+    width: 45%;
+    border: solid;
+    flex-direction: column;
+    margin-left: 25%;
+    padding-top: 30px;
+    margin-bottom: 50px;
+    border-color:gray ;
+}
+
+.container-green{
+    width: 100%;
+    background: rgba(162, 190, 97, 0.667);
+    flex-direction: column;
+    left: 50%;
+    font-size: 30px;
+}
+.width-input{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3px;
+}
+.height-input{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3px;
+}
+.number-input{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3px;
+}
+.adjective-input{
+    display: flex;
+    justify-content: center;
+    
+}
+.button{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+button{
+    width: 200px;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.story{
+    display: none;
+    text-align: center;
+    width: 45%;
+    border: solid;
+    margin-left: 25%;
+    margin-bottom: 15px;
+    border-color:gray ;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    flex-direction: row;
+}
+img{
+    width: 50px;
+    height: 50px;
+}
+.ptext{
+    font-size: 20px;
+    text-align: center;
+    margin: 45px 10px;
+}
+.colortext{
+    color: rgb(45, 116, 45);
+}
+.toptext{
+    font-size: 64px;
+    text-align: center;
+}
+.container-middletext{
+    margin-top: 40px;
+}
+.middletext{
+    margin-bottom: 20px;
+    font-size: 20px;
+    margin-left: 20%;
+}
